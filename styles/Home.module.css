@@ -1,0 +1,33 @@
+.home_container {
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.home_container div:first-child {
+  margin: 0
+}
+.home_container div:nth-child(2) h2 {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #333333
+}
+.ul {
+  list-style: none;
+}
+
+.ul li {
+  display: flex;
+  align-items: center;
+  margin: 3px 0;
+  padding: 0.5rem 0;
+  width: 200px;
+  background-color: rgba(149, 149, 149, 0.6);
+  position: relative;
+  border-radius: 8px;
+  filter: saturate(85%)
+}
+.ul li img {
+  margin: 0 10px;
+  width: 30px;
+  height: auto
+}
